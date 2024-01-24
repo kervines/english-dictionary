@@ -14,33 +14,18 @@
   <div class="container">
     <div class="title-container">
       <i class="fa-solid fa-book"></i>
-      <h1>English Dictionary </h1>
+      <h1>English Dictionary.</h1>
     </div>
-    <div class="search-container">
-      <input type="text" placeholder="Search a word">
-      <button><i class="fa-solid fa-magnifying-glass"></i></button>
-    </div>
+    <form class="search-container">
+      <input id="input-word" type="text" placeholder="Search a word">
+      <button type="submit" id="btn-search"><i class="fa-solid fa-magnifying-glass"></i></button>
+    </form>
     <div class="response-container">
-      <ul>
-        <li id="word">
-          <h2>Word</h2>
-        </li>
-        <li>Pronunciation:
-          <ol>
-            <li>audio<audio src=""></audio></li>
-            <li>
-              <p>text</p>
-            </li>
-          </ol>
-        </li>
-        <li>Meanings
-          <ol>
-            <li>Exclamation</li>
-            <li>Noun</li>
-            <li>Verb</li>
-          </ol>
-        </li>
-      </ul>
+      <!-- <h2 id="word"></h2>
+      <audio id="audio" src=""></audio>
+      <p id="pronunciation"></p>
+      <p id="meanPOS"></p>
+      <p id="Def"></p> -->
     </div>
   </div>
 </body>
